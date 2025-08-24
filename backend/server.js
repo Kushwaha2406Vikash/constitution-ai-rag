@@ -11,7 +11,7 @@ const app = express();
 
 // ✅ Middlewares
 app.use(cors({
-  origin: process.env.CLIENT_URL || "http://localhost:5173", // 👈 env based frontend URL
+  origin: process.env.CLIENT_URL || "https://constitution-ai-rag-iyj4.vercel.app/", /
   methods: ["GET", "POST"],
   credentials: true,
 }));
