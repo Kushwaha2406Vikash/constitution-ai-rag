@@ -79,7 +79,7 @@ ${context}
     });
 
     const finalAnswer = response.response.text();
-    console.log("AI Raw Answer:\n", finalAnswer);
+  //  console.log("AI Raw Answer:\n", finalAnswer);
 
     const parsedResponse = parseStructuredAnswer(finalAnswer);
     History.pop();
