@@ -12,7 +12,7 @@ export const airesponse = async (req, res) => {
     }
 
     const finalAnswer = await chatting(text);
-     console.log(finalAnswer);
+    // console.log(finalAnswer);
     return res.status(200).json({
       success: true,
       data: finalAnswer,
