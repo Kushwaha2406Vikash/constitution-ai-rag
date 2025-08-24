@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Header from "./component/header";
-import ConstitutionQuery from "./component/ConstitutionQuery";
-import HelpSection from "./component/HelpSection";
-import Footer from "./component/Footer";
+import Header from "./component/Header.jsx";
+import ConstitutionQuery from "./component/ConstitutionQuery.jsx";
+import HelpSection from "./component/HelpSection.jsx";
+import Footer from "./component/Footer.jsx";
 
 const App = () => {
   const [response, setResponse] = useState(null); // state to store API response
